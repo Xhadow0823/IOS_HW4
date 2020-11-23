@@ -11,6 +11,12 @@
 		07D0A39625625C6D00D922F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0A39525625C6D00D922F0 /* ContentView.swift */; };
 		07D0A39825625C7000D922F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D0A39725625C7000D922F0 /* Assets.xcassets */; };
 		07D0A39B25625C7000D922F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D0A39A25625C7000D922F0 /* Preview Assets.xcassets */; };
+		07D0A3A425625CEA00D922F0 /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0A3A325625CEA00D922F0 /* PersonList.swift */; };
+		07D0A3A725625CFC00D922F0 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0A3A625625CFC00D922F0 /* PersonRow.swift */; };
+		07D0A3AA25625D1900D922F0 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0A3A925625D1900D922F0 /* ChartView.swift */; };
+		07D0A3AD25625D3000D922F0 /* PersonEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0A3AC25625D3000D922F0 /* PersonEditor.swift */; };
+		07D0A3B425625D6A00D922F0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0A3B325625D6A00D922F0 /* Person.swift */; };
+		07D0A3B725625D7300D922F0 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0A3B625625D7300D922F0 /* PersonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		07D0A39725625C7000D922F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07D0A39A25625C7000D922F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07D0A39C25625C7000D922F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D0A3A325625CEA00D922F0 /* PersonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonList.swift; sourceTree = "<group>"; };
+		07D0A3A625625CFC00D922F0 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		07D0A3A925625D1900D922F0 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		07D0A3AC25625D3000D922F0 /* PersonEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonEditor.swift; sourceTree = "<group>"; };
+		07D0A3B325625D6A00D922F0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		07D0A3B625625D7300D922F0 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				07D0A39325625C6D00D922F0 /* IOS_HW4App.swift */,
 				07D0A39525625C6D00D922F0 /* ContentView.swift */,
+				07D0A3A325625CEA00D922F0 /* PersonList.swift */,
+				07D0A3B325625D6A00D922F0 /* Person.swift */,
+				07D0A3B625625D7300D922F0 /* PersonData.swift */,
+				07D0A3A625625CFC00D922F0 /* PersonRow.swift */,
+				07D0A3A925625D1900D922F0 /* ChartView.swift */,
+				07D0A3AC25625D3000D922F0 /* PersonEditor.swift */,
 				07D0A39725625C7000D922F0 /* Assets.xcassets */,
 				07D0A39C25625C7000D922F0 /* Info.plist */,
 				07D0A39925625C7000D922F0 /* Preview Content */,
@@ -139,7 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				07D0A39625625C6D00D922F0 /* ContentView.swift in Sources */,
+				07D0A3A725625CFC00D922F0 /* PersonRow.swift in Sources */,
+				07D0A3A425625CEA00D922F0 /* PersonList.swift in Sources */,
+				07D0A3AA25625D1900D922F0 /* ChartView.swift in Sources */,
+				07D0A3B725625D7300D922F0 /* PersonData.swift in Sources */,
+				07D0A3B425625D6A00D922F0 /* Person.swift in Sources */,
 				07D0A39425625C6D00D922F0 /* IOS_HW4App.swift in Sources */,
+				07D0A3AD25625D3000D922F0 /* PersonEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

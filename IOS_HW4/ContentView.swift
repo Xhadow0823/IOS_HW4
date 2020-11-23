@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var personData = PersonData()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView{
+            PersonList(personData: personData)
+                .tabItem {
+                    Image(systemName: "person.crop.circle")
+                    Text("對象清單")
+                }
+            ChartView(personData: personData)
+                .tabItem {
+                    Image(systemName: "chart.bar.fill")
+                    Text("統計")
+                }
+        }
     }
 }
 
